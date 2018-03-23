@@ -1,0 +1,11 @@
+debug: false
+
+server:
+  port: 8080
+
+spring:
+#  profiles:
+#   active: develop
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
